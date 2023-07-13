@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML5</p>
+    
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg ">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador nao consegue reporduzir audio <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+
+    <h1>Inserindo videos hospedados localmente</h1>
+        <p>Este video esta hospedado no meu servidor</p>
+        <video controls>
+            <source src="midia/meuvideo.mp4" type="video/mp4">
+            <source src="midia/MeuvideoMV4.webm" type="video/webm">
+            <source src="midia/" type="video/mp4">
+            <p>Seu navegador nao reproduz videos</p>
+
+        </video>
+
+        <h1>Inserir videos no youtube</h1>
+        <iframe width="640" height="315" src="https://www.youtube.com/embed/BwUKoe0lEd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <h1>Exercicio:</h1>
+        <p><a href="Exercicios/exercVideos.html">Ir para a pagina de exercicios:</a></p>
+
+        <p><a href="index.html">Voltar a primeira pagina</a></p>
+</body>
+</html>

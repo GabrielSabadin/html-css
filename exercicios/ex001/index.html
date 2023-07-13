@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html.ico.png" type="image/x-icon">
+    <title>Site Estudo</title>
+    <style>
+        body {
+            background-color: lightsteelblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: darkblue;
+            background-color: lightblue;
+        }
+        h2 {
+            color: darkred;
+        }
+        p {
+            text-align: justify;
+        }
+
+        blockquote {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ola, mundo</h1>
+    <hr> 
+    <p>Este e meu primeiro documento HTML</p>
+    <hr>
+    <p>Paragrafos e quebras de linha</p>
+    <hr>
+    <p>Pode escreve paragrafo de qualq jeito
+        vlalal
+        aaa
+        desde q estekja no meiodos p
+        se precisar quebrar use <br> ae o resto vai pra
+    </p>
+
+    <p>Simbolos especiais: 
+        &reg;
+        &copy;
+    </p>
+
+    <p>Emoji <br>
+        Emoji pedia.org <br>
+        copia o link, começa com: &#x e colado nele o codigo <br> 
+        exemplo: &#x1f596;
+    </p>
+    <p>Abaixo uma imagem: </p>
+    <img src="logo-css3-200.png" alt="Logo CSS">
+    <img src="logo-html-200.png" alt="Logo HTML5">
+    <p>Tambem podemos carregar imagens externas: </p>
+    <img src="https://bognarjunior.files.wordpress.com/2018/01/1crcyaithv7aiqh1z93v99q.png" alt="Logo JavaScript">
+
+    <h1>Hierarquia de titulos:</h1>
+    <h1>ENTENDENDO PORTUGAL:</h1>
+    <h2>1. INTRODUÇÃO</h2>
+
+    <h3>1.1 JUSTIFICAÇÃO DA TEMATICA</h3>
+    <h3>1.2 CARÁTER EXCEPCIONAL DO CASO DE ESTUDO</h3>
+    <h3>1.3 PERGUNTAS DE PARTIDA E OBJETIVOS DE INVESTIGAÇÃO</h3>
+    <h3>1.4 METODOLOGIAS DE INVESTIGAÇÃO</h3>
+
+    <h4>1.4.1 Etapas de investigação</h4>
+    <h4>1.4.2 Instrumentos de análise e fontes de informação</h4>
+
+
+    <h2>2. O ORDENAMENTO DO TERRITÓRIO EM PORTUGAL: INSTRUMENTOS E ATORES</h2>
+
+    <p>Eu moro na rua <address>Adolfo Knob - CInquentenario - 244</address></p>
+
+    <h1>Formatações:</h1>
+    <h2>Principais formatações: </h2>
+    <h3>Negrito</h3>
+    <p>Nessa frase temos um <b>Termo em negrito </b>usando a tag B (nao semantica)</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> com a tag STRONG (semantica)</p>
+
+    <h3>Italico</h3>
+    <p>Nesta frase temos <i>um termo em italico</i> usando a tag i (nao semantica)</p>
+    <p>Nesta frase temos um <em>termo em destaque</em> usando a tag EM (semantica)</p>
+
+    <h3>Texto Marcado</h3>
+    <p>Podemos criar um <mark style="background-color: lime;">texto marcado</mark> usando a tag MARK</p>
+
+    <h3>Texto grande e pequeno</h3>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse paragrafo</p>
+
+    <h3>Texto deletado</h3>
+    <p>Marcar para mostrar que o <del>texto excluido</del> pode ser lido, mas nao considerado</p>
+
+    <h3>Texto Incluido</h3>
+    <p>Marcar como um <ins>texto inserido</ins> para dar enfase que ele foi adicionado depois.</p>
+
+    <h3>TExto Sobrescrito</h3>
+    <p>Inserir coisas do tipo: x<sup>20</sup>+30</p>
+    
+    <h3>Texto subescrito</h3>
+    <p>Para inserir coisas do tipo h<sub>2</sub>0</p>
+
+
+    <h2>Outras formatações</h2>
+    <h3>Codigo Fonte</h3>
+    <p>O comando <code>document.getElementById('Teste')</code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+            num = int(input("Digite o numero"))
+            if num % 2 == 0;
+                print(f'O numero {num} é PAR')
+            else:
+                print(f'O numero {num} é IMPAR)
+            print("fim do programa")
+             <!-- Seleciona tudo, shift tab, ou só tab-->
+
+        </code>
+    </pre>
+
+    <h3>Citações simples</h3>
+    <p>Como diria um pai de um amigo: <q>o computador é um burro muito rapido</q></p>
+    <h3>Citações complexas</h3>
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos: </p>
+    <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
+        Ed Tittel é escritor, consultor freelance e, ocasionalmente, especialista em tecnologias web. Trabalha em sua casa, próxima à linda Austin, Texas. Ed escreve para imprensa especializada desde 1986 e já trabalhou em muitos outros títulos para a Wiley, incluindo Windows Server 2008 For Dummies, XML For Dummies e Networking with NetWare For Dummies. Ultimamente, ele tem trabalhado em diversos títulos personalizados da série For Dummies, incluindo livretos sobre computação em cluster, backhaul móvel, Marcação XBRL e a carrier Ethernet
+    </blockquote>
+    <h3>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr>e  <abbr title="Cascading Style Sheet">CSS</abbr></h3>
+
+    <h2>Listas</h2>
+    <h3>Listas Ordenadas</h3>
+    <ol type="1" start="5">
+        <li>Acordar</li>
+        <li>Tomar cafe</li>
+        <li>Escovar os dentes</li>
+        <li>Sair de casa</li>
+        <li>Almocar</li>
+        <li>Trabalhar</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+
+    <h3>Listas Na Ordenadas</h3>
+    <ul>
+        <li>Pao</li>
+        <li>Manteiga</li>
+        <li>Tomate</li>
+        <li>Leite</li>
+        <li>Arroz</li>
+        <li>Feijao</li>
+    </ul>
+
+    <h3>Juntando listas versao 1.0</h3>
+    <h4>Minhas Linguagesns favoritas</h4>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basick</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="e">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul>
+            <li>Mario</li>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul>
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul>
+            <li>Final Fantasy</li>
+            <li>Castelvania</li>
+        </ul>
+    </ol>
+
+    <h3>Lista de Definição</h3>  <!--Termo e definicão, dicionario -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação de um conteudo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem para o design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem para a interação de um site</dd>
+    </dl>
+
+    <h2>Links Externos</h2>
+    <p>Voce Pode acessar o <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="external">repositorio no github</a>:</p>
+    <p>Voce tambem pode acessar o meu  <a href="https://www.youtube.com/@CursoemVideo"  target="_blank" rel="external">canal no youtube</a></p>
+
+    <h2>Link Interno</h2>
+    <p>Esta é a primiera pagina, se quiser acessar a segunda pagina <a href="pag2.html">clique aqui:</a></p>
+    <p>Acesse também a pagina de <a href="noticias/pag03.html">noticias</a></p>
+
+    <h3>Audos e Videos:</h3>
+    <p><a href="videos.html">Estudo para videos:</a></p>
+</body>
+</html>
